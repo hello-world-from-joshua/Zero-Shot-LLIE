@@ -27,7 +27,7 @@
 ## :mega: Updates
 - **12.19.2024**: We plan to have the code available in late December 2024. (tentative)
 
-## Acknowledgement
+## Acknowledgment
 Our work is inspired by [**Plug-and-Play**](https://pnp-diffusion.github.io/), and our implementation is based on the accompanying code.
 
 ## Citation
