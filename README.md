@@ -31,7 +31,7 @@
 ```
 @article{cho2024llie,
     title={Zero-Shot Low Light Image Enhancement with Diffusion Prior},
-    author={Joshua Cho and Sara Aghajanzadeh and Zhen Zhu and David Forsyth},
+    author={Joshua Cho and Sara Aghajanzadeh and Zhen Zhu and D. A. Forsyth},
     journal={arxiv},
     year={2024}
 }
