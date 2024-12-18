@@ -28,7 +28,7 @@
 - **12.19.2024**: We plan to have the code available in late December 2024. (tentative)
 
 ## Acknowledgment
-Our work is inspired by [**Plug-and-Play**](https://pnp-diffusion.github.io/), and our implementation is based on the accompanying code.
+Our work is inspired by [**ControlNet**](https://arxiv.org/pdf/2302.05543) and [**Plug-and-Play**](https://pnp-diffusion.github.io/), and our implementation builds upon the accompanying code.
 
 ## Citation
 ```
