@@ -17,7 +17,7 @@
 </div>
 <div>
     <h4 align="center">
-        <a href="" target='_blank'>[arXiv]</a>
+        <a href="https://arxiv.org/abs/2412.13401" target='_blank'>[arXiv]</a>
     </h4>
 </div>
 
