@@ -13,9 +13,6 @@
 </div>
 
 <div>
-    :star: <strong>In-Submission</strong>
-</div>
-<div>
     <h4 align="center">
         <a href="https://arxiv.org/abs/2412.13401" target='_blank'>[arXiv]</a>
     </h4>
@@ -25,7 +22,7 @@
 </div>
 
 ## :mega: Updates
-- **12.19.2024**: We plan to have the code available in late December 2024. (tentative)
+:star: **12.19.2024**: We plan to have the code available in late December 2024. (tentative)
 
 ## Acknowledgment
 Our work is inspired by [**ControlNet**](https://arxiv.org/pdf/2302.05543) and [**Plug-and-Play**](https://pnp-diffusion.github.io/), and our implementation builds upon the accompanying code.
