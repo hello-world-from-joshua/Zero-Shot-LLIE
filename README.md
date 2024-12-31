@@ -30,7 +30,7 @@
 ## :sunny: Results
 ### :pushpin: Please Read
 - All results are provided in the **`results`** folder to ensure transparency of our paper, despite the superior performance of our method being evident through quantitative metrics.
-- Please review the results for LOLv2 first **(results/ 0_lolv2test.pdf & 1_lolv2train.pdf)**, as it includes more images of the same scene under varying brightness and noise levels, before proceeding to LOLv1 and unpaired datasets (DICM, MEF, LIME, NPE, and VV). Given the zero-shot framework of our method, we also provide results on the training set.
+- Please review the results for LOLv2 first **`(results/ 0_lolv2test.pdf & 1_lolv2train.pdf)`**, as it includes more images of the same scene under varying brightness and noise levels, before proceeding to LOLv1 and unpaired datasets (DICM, MEF, LIME, NPE, and VV). Given the zero-shot framework of our method, we also provide results on the training set.
 - A robust method should fulfill the following criteria:
 
 1. **Consistency Across Conditions**: The method output should remain identical for the same scene, regardless of variations in darkness and noise levels (e.g., Figure 10 in our paper).
