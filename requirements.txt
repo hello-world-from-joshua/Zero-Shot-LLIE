@@ -1,0 +1,10 @@
+opencv-python
+torch==2.0.1
+torchvision==0.15.2
+numpy==1.25.0
+xformers==0.0.20
+transformers==4.30.2
+accelerate==0.20.3
+diffusers==0.17.1
+controlnet-aux==0.0.5
+huggingface-hub==0.23.3
