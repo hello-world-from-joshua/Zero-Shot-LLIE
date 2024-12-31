@@ -44,7 +44,7 @@
 
 4. **Unpaired Datasets**: For unpaired datasets, DICM, MEF, LIME, NPE, and VV, which are not dark and contain negligible noise, uniform global scaling is often sufficient to achieve optimal results.
 
-5. **Miscellaneous**: The "scaled image" refers to an image uniformly globally scaled such that its average brightness is 120.0. On average, GDP requires approximately **`19 min/img`** on NVIDIA A10, while our method takes only **`1.4 min/img`** with no additional processes running.
+5. **Miscellaneous**: The "scaled image" refers to an image uniformly globally scaled such that its average brightness is 120.0. On average, GDP requires approximately **`19 min/img`** on NVIDIA A10, while our method takes only **`1.4 min/img`** with no additional processes running. In addition, GDP output varies on each run as it is not fixed.
 
 
 ## :desktop_computer: Setup
