@@ -77,11 +77,11 @@ python main.py --img_dir_path "./small_sample_data or your_data_path"
 Our method relies heavily on self-reconstruction by the diffusion model. Should the output images fall short of expectations, please evaluate the self-reconstruction of the input image in the ./output/LoRA_Reconstructed. If the self-reconstruction is suboptimal, consider increasing the --lora_batch_size and --lora_steps parameters in the command-line configuration. All results in both our paper and the PDF files are obtained using the default configuration, without increasing the two LoRA parameters, to maintain a balance between time and accuracy.
 
 
-## Acknowledgment
+## :handshake: Acknowledgment
 Our work is inspired by [**ControlNet**](https://arxiv.org/pdf/2302.05543) and [**Plug-and-Play**](https://pnp-diffusion.github.io/), and our implementation builds upon the accompanying code.
 
 
-## Citation
+## :black_nib: Citation
 ```
 @article{cho2024llie,
     title={Zero-Shot Low Light Image Enhancement with Diffusion Prior},
