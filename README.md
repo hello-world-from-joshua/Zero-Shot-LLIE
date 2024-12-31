@@ -38,7 +38,7 @@
 2. **Beyond Naive Scaling**: 
    - (a) The method must identify the intrinsic colors of the scene, overcoming incorrect colors introduced by noise (e.g., row 2 in Figure 7 of the motorcycle scene).
    - (b) It should perform region-specific brightness adjustments instead of uniform global scaling, which can result in unnatural appearances (e.g., row 2 in Figure 9). Observe how other methods resemble uniform global scaling.
-   - (c) It should attenuate noise. **Please zoom in to examine the noise in the scaled image and the residual noise for each method."**
+   - (c) It should attenuate noise. Please zoom in to examine the noise in the scaled image and the residual noise for each method.
 
 3. **Generality Across Datasets**: The method must perform effectively across diverse datasets and not be limited to excelling in only one.
 
