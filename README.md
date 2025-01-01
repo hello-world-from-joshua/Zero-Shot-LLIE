@@ -29,7 +29,7 @@
 
 ## :sunny: Results
 ### :pushpin: Please Read
-- All results are provided in the **`results/link.txt`** to ensure transparency of our paper, despite the superior performance of our method being evident through quantitative metrics.
+- All results are provided in the **`results/link.txt`** to ensure transparency of our paper, despite the superior performance of our method being evident through quantitative metrics. Importantly, we have included the **`entire set of images from all datasets`**—no images have been excluded—to provide a comprehensive evaluation.
 - Please review the results for LOLv2 first **`(results/ 0_lolv2test.pdf & 1_lolv2train.pdf)`**, as it includes more images of the same scene under varying brightness and noise levels, before proceeding to LOLv1 and unpaired datasets (DICM, MEF, LIME, NPE, and VV). Given the zero-shot framework of our method, we also provide results on the training set.
 - A robust method should fulfill the following criteria:
 
