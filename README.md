@@ -33,7 +33,7 @@
 - Please review the results for LOLv2 first **`(results/ 0_lolv2test.pdf & 1_lolv2train.pdf)`**, as it includes more images of the same scene under varying brightness and noise levels, before proceeding to LOLv1 and unpaired datasets (DICM, MEF, LIME, NPE, and VV). Given the zero-shot framework of our method, we also provide results on the training set.
 - A robust method should fulfill the following criteria:
 
-1. **Consistency Across Conditions**: The method output should remain identical for the same scene, regardless of variations in darkness and noise levels (e.g., Figure 10 in our paper).
+1. **Consistency**: The method output should remain identical for the same scene, regardless of variations in darkness and noise levels (e.g., Figure 10 in our paper).
 
 2. **Beyond Naive Scaling**: 
    - (a) The method must identify the intrinsic colors of the scene, overcoming incorrect colors introduced by noise (e.g., row 2 in Figure 7 of the motorcycle scene).
@@ -44,7 +44,7 @@
 
 4. **Unpaired Datasets**: For unpaired datasets, DICM, MEF, LIME, NPE, and VV, which are not dark and contain negligible noise, uniform global scaling is often sufficient to achieve optimal results.
 
-5. **Miscellaneous**: The "scaled image" refers to an image uniformly globally scaled such that its average brightness is 120.0. On average, GDP requires approximately **`19 min/img`** on NVIDIA A10, while our method takes only **`1.4 min/img`** with no additional processes running. In addition, GDP output varies on each run as it is not fixed.
+5. **Miscellaneous**: The "scaled image" refers to an image adjusted using uniform global scaling to achieve an average brightness of 120.0. On average, GDP requires approximately **`19 min/img`** on NVIDIA A10, while our method takes only **`1.4 min/img`** with no additional processes running. In addition, GDP output varies on each run as it is not fixed.
 
 
 ## :desktop_computer: Setup
@@ -62,8 +62,9 @@ pip install -r requirements.txt
 ```
 
 ### Data
-- Paired Datasets: [here](https://github.com/flyywh/CVPR-2020-Semi-Low-Light)
-- Unpaired Datasets: [here](https://daooshee.github.io/BMVC2018website/)
+- LOLv2 Dataset (*Detailed Guidance*→*4. Image number in LOL*→*LOL-v2*): [here](https://github.com/flyywh/CVPR-2020-Semi-Low-Light)
+- LOL Dataset (*DownloadLinks*→*Datasets*→*LOL*): [here](https://daooshee.github.io/BMVC2018website/)
+- Unpaired Datasets (*DownloadLinks*→*Datasets*→*Testing Images*): [here](https://daooshee.github.io/BMVC2018website/)
   
 ### Note
 To address potential compatibility issues, we provide exact library versions in conda_env/authors_conda_env.txt. If any problems arise, please use this file as a guide for troubleshooting.
