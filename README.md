@@ -22,9 +22,13 @@
 </div>
 
 ## :mega: Updates
-:star: **12.19.2024**: We plan to have the code available in late December 2024. (tentative)
+:star: **12.19.2024**: 
 
-:star: **12.31.2024**: Code (written without regard to efficiency in our First Commit for now only to share a working code and to ensure transparency about our results) is released (To do: Second Commit (tentative)).
+We plan to have the code available in late December 2024. (tentative)
+
+:star: **12.31.2024**: 
+
+Code (written without regard to efficiency in our First Commit for now only to share a working code and to ensure transparency about our results) is released. (To do: Second Commit (tentative))
 
 
 ## :sunny: Results
